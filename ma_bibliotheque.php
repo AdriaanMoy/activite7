@@ -32,8 +32,8 @@ function trouver_plus_proche_de_zero($tableau) {
     $mini = $tableau[0];
 
     foreach ($tableau as $element) {
-        if ($mini > abs($element)) {
-            $mini = $element;
+        if (abs($mini) > abs($element)) {
+            abs($mini) = abs($element);
         
     }
 
