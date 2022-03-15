@@ -26,7 +26,6 @@ function trouver_max($tableau) {
 
     return $max;
 }
-}
 
 // Fonction pour trouver la valeur la plus proche de zéro
 function trouver_plus_proche_de_zero($tableau) {
